@@ -73,4 +73,7 @@ myTest.skip("my Test", async({page,userDetail})=>{
 
 locatorCustom("base test",async({page,loginFunction})=>{
     await loginFunction("standard_user","secret_sauce")
+
+
+    
 })
