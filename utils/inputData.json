@@ -1,0 +1,22 @@
+[{"username":"standard_user",
+"password":"secret_sauce",
+"firstName":"abc",
+"lastName":"test",
+"zipCode":"683518",
+"myProduct":"Sauce Labs Bolt T-Shirt"
+},
+{"username":"standard_user",
+"password":"secret_sauce",
+"firstName":"sobith",
+"lastName":"krishnan",
+"zipCode":"683520",
+"myProduct":"Sauce Labs Fleece Jacket"
+},
+{"username":"standard_user",
+"password":"secret_sauce",
+"firstName":"def",
+"lastName":"tested",
+"zipCode":"683532",
+"myProduct":"Sauce Labs Onesie"
+}]
+
