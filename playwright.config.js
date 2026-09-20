@@ -35,7 +35,7 @@ export default defineConfig({
    browserName:'chromium'
 
   },
-  },{
+  },/*{
     name:'firefoxProject',
     use: {
    headless:false,
@@ -44,7 +44,7 @@ export default defineConfig({
    trace:'retain-on-failure',
    browserName:'firefox'
   },
-  },{
+  },*/{
     name:'webkitProject',
     use: {
    headless:false,

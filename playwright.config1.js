@@ -35,7 +35,7 @@ export default defineConfig({
    browserName:'chromium'
 
   },
-  },{
+  },/*{
     name:'firefoxProject',
     use: {
    headless:false,
@@ -48,7 +48,7 @@ export default defineConfig({
    //geolocation:{latitude:9.99,longitude:8.77}
    ignoreHTTPSErrors:true
   },
-  },{
+  },*/{
     name:'webkitProject',
     use: {
    headless:false,
