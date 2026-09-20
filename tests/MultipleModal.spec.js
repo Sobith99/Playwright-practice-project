@@ -15,7 +15,7 @@ test("BootstrapMultiple",async({page})=>{
     const SecondModel = page.locator("#exampleModalCenter2");
     const SecondModelTitle = SecondModel.locator('button.btn.btn-primary').last();
     await SecondModelTitle.click();
-    const SecondModel = page.locator("#exampleModalCenter2");
+    //const SecondModel = page.locator("#exampleModalCenter2");
     const CloseButton = SecondModel.getByRole("button", {name: "Close"});
     await CloseButton.click();
 
