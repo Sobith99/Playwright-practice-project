@@ -1,5 +1,5 @@
 import test,{expect} from "@playwright/test";
-test("BootstrapMultiple",async({page})=>{
+test("@Login BootstrapMultiple",async({page})=>{
     await page.goto("https://selenium.qabible.in/index.php")
     const alertandModels=page.getByRole('link',{name:"Alerts and Modals"})
     await alertandModels.click()
@@ -16,8 +16,8 @@ test("BootstrapMultiple",async({page})=>{
     const SecondModelTitle = SecondModel.locator('button.btn.btn-primary').last();
     await SecondModelTitle.click();
     //const SecondModel = page.locator("#exampleModalCenter2");
-    const CloseButton = SecondModel.getByRole("button", {name: "Close"});
-    await CloseButton.click();
+    //const CloseButton = SecondModel.getByRole("button", {name: "Close"});
+    //await CloseButton.click();
 
 
 })

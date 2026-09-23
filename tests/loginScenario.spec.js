@@ -1,6 +1,6 @@
 //negative scenarios message fetch task
 import test,{expect} from "@playwright/test";
-test('Correct username with incorrect password', async({page})=>{
+test('@Login Correct username with incorrect password', async({page})=>{
     await page.goto('https://www.saucedemo.com')
     const username=page.locator('#user-name')
     await username.fill('standard_user')
